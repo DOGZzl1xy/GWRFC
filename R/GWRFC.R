@@ -36,7 +36,7 @@
 #'      kernel_function = "exponential", #the weightening function. See help for other available functions.
 #'      kernel_adaptative = T, #use TRUE for adaptative kernel distance or FALSE for a fixed kernel distance.
 #'      kernel_bandwidth = 400, #as the kernel is adaptative, 400 refers to the minimun number of observations to use in modelling.
-#'      upsampling = T, #improves accuracy (recommended) but is a bit more computing costly.
+#'      upsampling = T
 #'      save_models = T, #save RF models. Beware of hard disk space and extra processing time.
 #'      enable_pdp = F, #experimental, use with caution as is sensible to noise.
 #'      number_cores = 3, #defines the number of CPU cores to use
